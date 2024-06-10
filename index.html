@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
      <meta charset="utf-8">
@@ -13,26 +12,27 @@
     <!-- ここに記述していきましょう！ -->
     <div class="container">
         <div id="output" class="display"></div>
+        
         <div class="btn_box">
             
-            <button onclick="set(this)">7</button>
-            <button onclick="set(this)">8</button>
-            <button onclick="set(this)">9</button>
-            <button onclick="set(this)">+</button>
-            <button onclick="set(this)">4</button>
-            <button onclick="set(this)">5</button>
-            <button onclick="set(this)">6</button>
-            <button onclick="set(this)">-</button>
-            <button onclick="set(this)">1</button>
-            <button onclick="set(this)">2</button>
-            <button onclick="set(this)">3</button>
-            <button onclick="set(this)">*</button>
-            <button onclick="set(this)">0</button>
-            <button onclick="set(this)">00</button>
-            <button onclick="set(this)">.</button>
-            <button onclick="set(this)">/</button>
-            <button class="ac_btn" onclick="reset()">AC</button>
-            <button class="calc_btn" onclick="calc(this)">=</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="7">7</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="8">8</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="9">9</button>
+            <button class="num_op" onclick="set(this)">+</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="4">4</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="5">5</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="6">6</button>
+            <button class="num_op" onclick="set(this)">-</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="1">1</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="2">2</button>
+            <button id="num_bth one_nine" onclick="set(this)" value="3">3</button>
+            <button class="num_op" onclick="set(this)">*</button>
+            <button id="0" onclick="set(this)">0</button>
+            <button id="00" onclick="set(this)">00</button>
+            <button id="point" onclick="set(this)">.</button>
+            <button  class="num_op" onclick="set(this)">/</button>
+            <button class="ac_btn" onclick="set(this)">AC</button>
+            <button class="calc_btn" onclick="set(this)">=</button>
 
             </button>
         </div>
